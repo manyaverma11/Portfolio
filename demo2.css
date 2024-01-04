@@ -3,11 +3,8 @@ html {
   }
 
   *, *:before, *:after {
-    border-width: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     box-sizing: inherit;
-   
-  }
+     }
 
 html, body {
     margin: 0;
