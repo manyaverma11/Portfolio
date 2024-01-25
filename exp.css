@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+    border-width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+     }
+
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+    background-color: #F9F9F9;
+    width:fit-content;
+    display: grid;
+  }
+
+  body{
+    background-color: aqua;
+  }
+
+  .header_container
+  {
+    display: grid;
+    padding: 7% 20% 7% 5%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
+    width: 100%; 
+    background-color: #FFFFFF;
+    overflow: hidden;
+    -webkit-box-shadow: 0 3px 10px -10px #000000;
+    -moz-box-shadow: 0 3px 10px -10px #000000;
+    box-shadow: 0 3px 10px -10px #000000;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  /* .logo_container{ 
+    display: grid;
+    grid-column: 1 / 1 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0px;
+    font-weight: 900 !important;
+    color: #2D2E32 ;
+  }*/
+
+  .header_container a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 0%;
+    bottom: 0px;
+    color: #2D2E32 ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 250%;
+  }
+
+  .header_container a:hover{
+        color: rgb(255, 72, 17);
+        transition-duration: 0.3s;
+      }
+  
+
+  .nav_home_container{
+    grid-column: 1/1 ;
+    
+  }
+  .nav_about_me_container{
+    grid-column: 2/2 ;
+  }
+  .nav_projects_container{
+    grid-column: 3/3;
+  }
+  .nav_contact_container{
+    grid-column: 4/4 ;
+  }
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+  }
+   .head {
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    /* ... */
+    background-color: red;
+  }  
+  .main {
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    /* ... */
+    background-color: blue;
+  }  
+  .abme {
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    /* ... */
+    background-color: pink;
+  }  
+   .projects {
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    /* ... */
+    background-color: grey;
+  } 
+   .footer {
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    /* ... */
+    background-color: yellow;
+  }  
