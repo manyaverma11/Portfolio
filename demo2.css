@@ -141,7 +141,6 @@ html, body {
   #skill_pic{
     width: 17%;
     height: 17%;
-    margin-bottom: 10%;
   }
 
   .about_me_container{
@@ -579,9 +578,6 @@ html, body {
       padding-right: 45%;
     }
 
-    .css_container{
-      margin: 0 8% 0 8% ;
-    }
   
     .tech_stack_heading_container{
       margin: 0px 0px 0px 0px;
